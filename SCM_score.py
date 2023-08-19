@@ -1,7 +1,7 @@
 def scm(pdb_file,top_file,R):
     '''
     in house code
-    author:zhanpeng@CADD
+    author:zhang.peng@CADD
     
     pdb_file:pdb
     top_file:prmtop
