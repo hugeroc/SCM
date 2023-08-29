@@ -1,7 +1,10 @@
 # SCM (spatial charge mapping,viscosity)
 author:zhangpeng@CADD
-calculate viscosity of Fv.
-structure and charge based 
+
+this scripts calculate the viscosity of Fv based on structure and charge.
+
+structure may from PDB or Igfold or any homology modeling
+ 
 
 package required:mdtraj,pytraj,numpy
 
