@@ -85,7 +85,7 @@ def scm(pdb_file,top_file,R):
     for i in prot_idx:
         
         #get neighbor index of each atoms
-        neighbor_idx_of_atom_i = md.compute_neeighbors(md_traj_prot, R, np.asarray([i]))
+        neighbor_idx_of_atom_i = md.compute_neighbors(md_traj_prot, R, np.asarray([i]))
 
         # sum the mapped neighbor charge
         SCM_atom_i=np.sum(arr_charge_exposed_maped[neighbor_idx_of_atom_i])
